@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+hr {
+  width: 5%;
+  margin: 100px auto;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+  color: #66BFBF;
+}
+
+p {
+  font-size: 1em;
+  line-height: 2;
+}
+
+.profile, .profile>p {
+  width: 80%;
+  position: relative;
+  margin: 50px auto;
+  text-align: inherit;
+}
+.profile>p{
+  width: 50%;
+}
+.skills {
+  position: relative;
+}
+
+.skill-row-01 {
+  width: 60%;
+  margin: 30px auto 0 auto;
+  text-align: left;
+  height: 400px;
+}
+
+.skill-row-02 {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.skill-row-03 {
+  width: 60%;
+  margin: 70px auto;
+}
+
+.skill-content {
+  position: relative;
+  left: 12em;
+  width: 90%;
+  bottom: 12em;
+}
+
+.skll-content>p, .skll-content>h3 {
+  position: relative;
+  right: 80%;
+}
+
+.top-container {
+  background-color: #DEEDF0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  right: 70%;
+}
+
+.contact-me {
+  font-size: 12px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.bottom-container {
+  font-size: 12px;
+  margin-top: 50px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bottom-container>p {
+  position: relative;
+  color: #EAF6F6;
+}
+
+.btn {
+  display: inline-block;
+}
+
+.skill-img-01 {
+  width: 30%;
+  position: relative;
+  right: 10%;
+  top: 20%;
+  margin-right: 5%;
+}
+
+ul li::before {
+  content: "⚓️ ";
+}
+
+.skill-img-02 {
+  width: 30%;
+  float: right;
+  margin-right: 15px;
+}
+
+.skill-img-03 {
+  width: 25%;
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: inear-gradient(top, #11CDD4, #11999E);
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 3px;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: linear-gradient(top, #30E3CB, #2BC4AB);
+   border-radius: 8px;
+   text-decoration: none;
+}
